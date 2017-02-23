@@ -32,6 +32,7 @@ make sure server is running while doing work
 ```
 Either clone from Github or goto Heroku
 
-[Heroku link:](https://cmpe131-hello-tutorial.herokuapp.com)
+[Heroku link:]
+https://cmpe131-hello-tutorial.herokuapp.com
 
 ```
