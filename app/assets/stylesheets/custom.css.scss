@@ -3,6 +3,9 @@ $navbar-default-bg: #f48c42;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar-default{
+	margin:0;
+}
 
 #logo {
 	float: left;
@@ -11,14 +14,12 @@ $navbar-default-bg: #f48c42;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	font-weight: bold;
-	margin-left:0px;
 }
 
 #logo:hover{
 	color: #fff;
 	text-decoration: none;
-	padding:0;
-	margin:0;
+	
 }
 
 #topRow{
@@ -26,26 +27,26 @@ $navbar-default-bg: #f48c42;
 	text-align:center;
 }
 
+#pageRow{
+	margin-top:20px;
+	text-align:left;
+}
+
 #topContainer{
 	background-image: image-url("book-wall.jpg");
 	height:600px;
     width:100%;
-    background-size:100%;
-    margin-left:0;
+    background-size:cover;
 }
 
-body,html{
+.tableStyle{
 	width:100%;
-	height:100%;
-	padding:0px;
-	margin:0px;
-	
+	border:1px solid black; border-collapse:collapse;
+
 }
-
-.row{
-	width:100%;
-	margin-left:-15px;
-	margin-right:-15px;
+table tr, table th{
+	border: 1px solid black;
 }
-
-
+tbody tr, tbody td{
+	border: 1px solid black;
+}
