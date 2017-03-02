@@ -1,4 +1,7 @@
 class User < ActiveRecord::Base
+	has_many :articles
+	#convert email to lowercase using downcase before saving to the database
+	before_save {self.email = email.downcase}
 	#minimum 3 characters
 	validates :username, presence: true, 
 			  uniqueness: { case_sensitive: false }, #ignore case sensitivity

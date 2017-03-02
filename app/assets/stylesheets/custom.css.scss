@@ -3,8 +3,13 @@ $navbar-default-bg: #f48c42;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.navbar-default{
+.navbar {
 	margin:0;
+	border:0;
+}
+
+.center{
+	text-align: center;
 }
 
 #logo {
@@ -32,13 +37,20 @@ $navbar-default-bg: #f48c42;
 	text-align:left;
 }
 
-#topContainer{
-	background-image: image-url("book-wall.jpg");
+.jumbotron{
+	background-image: asset-url('book-wall.jpg');
 	height:600px;
     width:100%;
     background-size:cover;
 }
 
+.jumbotron h1{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
 .tableStyle{
 	width:100%;
 	border:1px solid black; border-collapse:collapse;
@@ -49,4 +61,17 @@ table tr, table th{
 }
 tbody tr, tbody td{
 	border: 1px solid black;
+}
+
+.btn-xlarge{
+	font-size: 1.7em;
+	background-color: black;
+}
+
+footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+	
 }
