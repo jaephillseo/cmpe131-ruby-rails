@@ -68,6 +68,27 @@ tbody tr, tbody td{
 	background-color: black;
 }
 
+.article-actions{
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+
+.description{
+	margin-top: 0;
+}
+
+.book-title{
+	font-weight:bold;
+	font-size:1.5em;
+
+}
+
+.book-body{
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 footer{
 	margin-top: 45px;
 	padding-top: 5px;
