@@ -1,7 +1,12 @@
 <h1 align="center">Listings</h1>
 <!--iterating through articles and printing it-->
+<div align="center">
+	<%= will_paginate %>
+</div>
 <%= render 'article', obj: @articles %>
-
+<div align="center">
+	<%= will_paginate %>
+</div>
 
 <p>
 	<%= link_to "Create new posting", new_article_path %>
