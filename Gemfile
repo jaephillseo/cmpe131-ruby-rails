@@ -19,7 +19,7 @@ end
 group :production do
   gem 'pg'
 end
-
+gem 'paperclip', '~> 4.1'
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
